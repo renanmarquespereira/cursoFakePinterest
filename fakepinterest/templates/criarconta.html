@@ -1,0 +1,29 @@
+{% extends "homepage.html "%}
+
+
+{% block titulo %}
+Criar Conta
+{% endblock %}
+
+{% block form %}
+
+<form action="" method="POST">
+    {{ form.csrf_token }}
+
+    {{ form.username.label() }}
+    {{ form.username() }}
+
+    {{ form.email.label() }}
+    {{ form.email() }}
+
+    {{ form.senha.label() }}
+    {{ form.senha() }}
+
+    {{ form.confirmarSenha.label() }}
+    {{ form.confirmarSenha() }}
+
+    {{ form.botaoCriarConta() }}
+
+</form>
+
+{% endblock %}

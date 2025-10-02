@@ -12,7 +12,22 @@
 <body>
 
 
-<h2>HOME PAGE</h2>
+<h1>HOME PAGE - FakePinterest</h1>
+
+{% block form %}
+<form action="" method="POST">
+    {{ form.csrf_token }}
+
+    {{ form.email.label() }}
+    {{ form.email() }}
+
+    {{ form.senha.label() }}
+    {{ form.senha() }}
+
+    {{ form.botaoLogin() }}
+
+</form>
+{% endblock %}
 
 </body>
 {% endblock %}

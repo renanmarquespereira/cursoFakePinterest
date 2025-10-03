@@ -9,6 +9,8 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///fakebase.db"
 # CHAVE DE SEGURANÇA DO APP
 app.config["SECRET_KEY"] = "bgbP_CsFvALHnd29V3CW3A"
+#Diz onde quero salvar imagens no meu programa
+app.config["UPLOAD_FOLDER"] = "static/fotos_posts"
 
 database = SQLAlchemy(app)
 

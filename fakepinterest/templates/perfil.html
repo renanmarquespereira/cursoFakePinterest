@@ -2,9 +2,28 @@
 
 
 {% block titulo %}
-Pefil do {{ usuario }}
+Pefil do Usuário
 {% endblock %}
 
 {% block body %}
-<a href="{{url_for('logout')}}">Sair</a>
+{% include "navbar.html "%}
+<strong>Perfil de {{ usuario.username }}</strong>
+
+
+
+{% if form %}
+<form action="" method="POST" enctype="multipart/form-data">
+    {{ form.csrf_token }}
+
+    {{ form.foto() }}
+    {{ form.botaoUploadFoto() }}
+</form>
+{% endif %}
+
+{% for foto in usuario.fotos %}
+
+<img src="{{ url_for('static', filename='fotos_posts/{}'.format(foto.imagem)) }}" alt="no image">
+
+{% endfor %}
+
 {% endblock %}

@@ -5,14 +5,21 @@
 
 {% include "navbar.html "%}
 
-<h1>Feed principal</h1>
+<body>
+<div class="container">
 
-{% for foto in fotos %}
+      <div class="conteudo">
+          {% for foto in fotos %}
+        <div class="bloco-imagem">
+          <a href=" {{ url_for('perfil', id_usuario=foto.id_user) }} ">
+            <img src="{{ url_for('static', filename='fotos_posts/{}'.format(foto.imagem)) }}" alt="no image">
+          </a>
+        </div>
+          {% endfor %}
+      </div>
+    </div>
+</body>
 
-<a href=" {{ url_for('perfil', id_usuario=foto.id_user) }} ">
-<img src="{{ url_for('static', filename='fotos_posts/{}'.format(foto.imagem)) }}" alt="no image">
-</a>
 
-{% endfor %}
 
 {% endblock %}

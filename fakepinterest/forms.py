@@ -25,4 +25,4 @@ class FormCriarConta(FlaskForm):
 
 class FormFoto(FlaskForm):
     foto = FileField('Foto', validators=[DataRequired()])
-    botaoUploadFoto = SubmitField('Upload Foto')
+    botaoUploadFoto = SubmitField('Enviar')

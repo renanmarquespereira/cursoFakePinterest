@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quarto Commit">
-      <change afterPath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/feed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/navbar.html" afterDir="false" />
+    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit">
+      <change afterPath="$PROJECT_DIR$/fakepinterest/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/static/site_imagens/fundo-login.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-11_192409.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-23_190202.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-30_193958.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/escrever.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/exportar_familia.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/templates/criarconta.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/criarconta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/feed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/perfil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instance/fakebase.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/fakebase.db" afterDir="false" />
     </list>
@@ -56,36 +60,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.criandoBD.executor": "Run",
-    "Python.criarBD.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.sscs.executor": "Run",
-    "Python.teste.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Developers/Curso_Python_HashTagTreinamento/Codigos/Projeto_FakePinterest/fakepinterest/static/imagens",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.criandoBD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.criarBD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sscs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Developers/Curso_Python_HashTagTreinamento/Codigos/Projeto_FakePinterest/fakepinterest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest" />
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\imagens" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\site_imagens" />
+      <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\css" />
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\fotos_posts" />
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest" />
     </key>
@@ -142,7 +149,8 @@
       <updated>1759292968664</updated>
       <workItem from="1759292969671" duration="1334000" />
       <workItem from="1759374705208" duration="8316000" />
-      <workItem from="1759435511084" duration="6785000" />
+      <workItem from="1759435511084" duration="9101000" />
+      <workItem from="1759549007318" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
@@ -176,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759383126293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759462978107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759462978107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759462990575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759462990575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,12 +211,13 @@
     <MESSAGE value="Segundo Commit" />
     <MESSAGE value="Terceiro Commit" />
     <MESSAGE value="Quarto Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quarto Commit" />
+    <MESSAGE value="Quinto Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quinto Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$criarBD.coverage" NAME="criarBD Coverage Results" MODIFIED="1759382147555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$teste.coverage" NAME="teste Coverage Results" MODIFIED="1759378105390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Projeto_FakePinterest$main.coverage" NAME="main Coverage Results" MODIFIED="1759460309830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Projeto_FakePinterest$main.coverage" NAME="main Coverage Results" MODIFIED="1759552516688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$sscs.coverage" NAME="sscs Coverage Results" MODIFIED="1759378710551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$criandoBD.coverage" NAME="criandoBD Coverage Results" MODIFIED="1759378996113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

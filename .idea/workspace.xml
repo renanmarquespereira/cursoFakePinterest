@@ -7,13 +7,7 @@
     <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-11_192409.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-23_190202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-30_193958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/criarconta.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/criarconta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instance/fakebase.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/fakebase.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +140,7 @@
       <workItem from="1759435511084" duration="9101000" />
       <workItem from="1759549007318" duration="4945000" />
       <workItem from="1759554061163" duration="80000" />
-      <workItem from="1759610728058" duration="5221000" />
+      <workItem from="1759610728058" duration="6424000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
@@ -212,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759554123972</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759630045758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759630045758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +136,7 @@
       <workItem from="1759435511084" duration="9101000" />
       <workItem from="1759549007318" duration="4945000" />
       <workItem from="1759554061163" duration="80000" />
-      <workItem from="1759610728058" duration="7226000" />
+      <workItem from="1759610728058" duration="7540000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
@@ -221,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759631199337</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759632247320</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759632247320</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

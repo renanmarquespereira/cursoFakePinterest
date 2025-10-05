@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit" />
+    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +43,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="b28263d9-4a6a-4185-ad00-9db046d3a91e" />
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/renanmarquespereira/Projeto_FakePinterest.git&quot;,
-    &quot;accountId&quot;: &quot;b28263d9-4a6a-4185-ad00-9db046d3a91e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/renanmarquespereira/cursoFakePinterest.git",
+    "accountId": "b28263d9-4a6a-4185-ad00-9db046d3a91e"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -151,7 +153,7 @@
       <workItem from="1759435511084" duration="9101000" />
       <workItem from="1759549007318" duration="4945000" />
       <workItem from="1759554061163" duration="80000" />
-      <workItem from="1759610728058" duration="7892000" />
+      <workItem from="1759610728058" duration="8189000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
@@ -249,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759632367755</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759632647068</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759632647068</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

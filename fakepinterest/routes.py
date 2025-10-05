@@ -1,5 +1,5 @@
 import flask
-from flask import render_template, url_for, redirect
+from flask import render_template, url_for, redirect, flash
 from fakepinterest import app, database, bcrypt
 from flask_login import login_required, login_user, logout_user, current_user
 from fakepinterest.forms import FormCriarConta, FormLogin, FormFoto
@@ -16,6 +16,8 @@ def homepage():
         if usuario and bcrypt.check_password_hash(usuario.senha, formLogin.senha.data):
             login_user(usuario)
             return redirect(url_for('perfil', id_usuario=int(usuario.id)))
+        else:
+            flash("Falha no login, email ou senha incorretos.", "alert-danger")
 
     return render_template("homepage.html", form=formLogin)
 

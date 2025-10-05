@@ -233,3 +233,7 @@ img {
   display: flex;
   column-gap: 20px;
 }
+
+.bordaVer {
+    border-color: #d50c22;
+}

@@ -40,13 +40,31 @@
           <h2>Bem-vindo(a) ao FakePinterest</h2>
 
           <div class="div-input">
-            {{ form.email.label(class="label") }}
-            {{ form.email(class="input") }}
+              {{ form.email.label(class="label") }}
+              {% if form.email.errors %}
+                    <span style="color: #d50c22">
+                    {% for erro in form.email.errors %}
+                        {{ erro }}
+                    {% endfor %}
+                    </span>
+                {{ form.email(class='input bordaVer')}}
+              {% else %}
+                {{ form.email(class="input") }}
+              {% endif %}
           </div>
 
           <div class="div-input">
-            {{ form.senha.label(class="label") }}
-            {{ form.senha(class="input") }}
+              {{ form.senha.label(class="label") }}
+              {% if form.senha.errors %}
+                    <span style="color: #d50c22">
+                    {% for erro in form.senha.errors %}
+                        {{ erro }}
+                    {% endfor %}
+                    </span>
+                {{ form.senha(class='input bordaVer')}}
+              {% else %}
+                {{ form.senha(class="input") }}
+              {% endif %}
           </div>
 
           <div class="div-botao">

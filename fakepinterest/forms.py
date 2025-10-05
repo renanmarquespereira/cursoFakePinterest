@@ -7,9 +7,18 @@ from fakepinterest.models import Usuario
 
 class FormLogin(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
-    senha = StringField('Senha', validators=[DataRequired(), Length(8, 20)])
+    senha = PasswordField('Senha', validators=[DataRequired(), Length(8, 20)])
     submit = SubmitField('Enviar')
     botaoLogin = SubmitField('Login')
+
+    def validate_email(self, email):
+        usuario = Usuario.query.filter_by(email=email.data).first()
+        if not usuario:
+            raise ValidationError("Email não existe!")
+
+    def validate_senha(self, senha):
+        if len(senha.data) < 8:
+            raise ValidationError("Senha deve ter mais pelo menos 8 caracteres")
 
 class FormCriarConta(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
@@ -21,7 +30,16 @@ class FormCriarConta(FlaskForm):
     def validate_email(self, email):
         usuario = Usuario.query.filter_by(email=email.data).first()
         if usuario:
-            return ValidationError("Email ja cadastrado!")
+            raise ValidationError("Email ja cadastrado!")
+
+    def validate_senha(self, senha):
+        if len(senha.data) < 8:
+            raise ValidationError("Senha deve ter mais pelo menos 8 caracteres")
+
+
+    def validate_confirmarSenha(self, confirmarSenha):
+        if self.senha != confirmarSenha.data:
+            raise ValidationError("Senha invalida, tamanho tem que ser 8/20")
 
 class FormFoto(FlaskForm):
     foto = FileField('Foto', validators=[DataRequired()])

@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="Quinto Commit">
-      <change afterPath="$PROJECT_DIR$/fakepinterest/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fakepinterest/static/site_imagens/fundo-login.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-11_192409.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-23_190202.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/Captura_de_tela_2025-08-30_193958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/escrever.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/static/fotos_posts/exportar_familia.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/templates/criarconta.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/criarconta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/feed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/perfil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance/fakebase.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/fakebase.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +145,8 @@
       <workItem from="1759374705208" duration="8316000" />
       <workItem from="1759435511084" duration="9101000" />
       <workItem from="1759549007318" duration="4945000" />
+      <workItem from="1759554061163" duration="80000" />
+      <workItem from="1759610728058" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
@@ -200,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759462990575</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759554111625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759554111625</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1759554123972</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759554123972</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +229,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$criarBD.coverage" NAME="criarBD Coverage Results" MODIFIED="1759382147555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$teste.coverage" NAME="teste Coverage Results" MODIFIED="1759378105390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Projeto_FakePinterest$main.coverage" NAME="main Coverage Results" MODIFIED="1759552516688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Projeto_FakePinterest$main.coverage" NAME="main Coverage Results" MODIFIED="1759629895858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$sscs.coverage" NAME="sscs Coverage Results" MODIFIED="1759378710551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Projeto_FakePinterest$criandoBD.coverage" NAME="criandoBD Coverage Results" MODIFIED="1759378996113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

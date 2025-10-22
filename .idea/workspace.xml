@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="debug Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/feed.html" afterDir="false" />
-    </list>
+    <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="debug Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

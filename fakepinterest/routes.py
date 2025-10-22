@@ -7,6 +7,11 @@ from fakepinterest.models import Usuario, Foto
 import os
 from werkzeug.utils import secure_filename
 
+@app.route('/initdb')
+def initdb():
+    database.create_all()
+    return 'Banco de dados criado!'
+
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
     formLogin = FormLogin()

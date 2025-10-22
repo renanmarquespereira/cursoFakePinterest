@@ -10,8 +10,8 @@
 
       <div class="conteudo">
           {% for foto in fotos %}
-        <div class="bloco-imagem text-center">
-            <h4 class="pb-3">Perfil de {{ foto.usuario.username }}</h4>
+        <div class="bloco-imagem">
+            <h4 class="mb-3 text-center">Postado por {{ foto.usuario.email }}</h4>
           <a href=" {{ url_for('perfil', id_usuario=foto.id_user) }} ">
             <img src="{{ url_for('static', filename='fotos_posts/{}'.format(foto.imagem)) }}" alt="no image">
           </a>

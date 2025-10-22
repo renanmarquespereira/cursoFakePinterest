@@ -9,7 +9,7 @@ app = Flask(__name__)
 #Criando Banco de dados
 
 
-if os.getenv("DEBUG") == 0:
+if os.getenv("DEBUG") == "0":
     link_bd = os.getenv("DATABASE_URL")
 else:
     link_bd = "sqlite:///fakebase.db"

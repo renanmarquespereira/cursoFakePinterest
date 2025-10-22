@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e155a3-0879-4c04-9f52-f41bea387f03" name="Changes" comment="debug Commit">
+      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakepinterest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/__init__.py" afterDir="false" />
     </list>
@@ -77,7 +78,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Developers/Curso_Python_HashTagTreinamento/Codigos/Projeto_FakePinterest/fakepinterest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Developers/Curso_Python_HashTagTreinamento/Codigos/Projeto_FakePinterest&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +94,7 @@
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\imagens" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest" />
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\site_imagens" />
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\css" />
       <recent name="D:\Developers\Curso_Python_HashTagTreinamento\Codigos\Projeto_FakePinterest\fakepinterest\static\fotos_posts" />
@@ -137,7 +139,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
         <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
@@ -155,7 +156,8 @@
       <workItem from="1759549007318" duration="4945000" />
       <workItem from="1759554061163" duration="80000" />
       <workItem from="1759610728058" duration="9113000" />
-      <workItem from="1759677114061" duration="1303000" />
+      <workItem from="1759677114061" duration="3518000" />
+      <workItem from="1759707156194" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
